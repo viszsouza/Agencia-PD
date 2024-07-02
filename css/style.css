@@ -1,0 +1,148 @@
+@import url("base.css");
+
+/* HEADER */
+.title{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+}
+
+.title h1{
+    font-size: 40px;
+}
+
+.title p{
+    font-size: 20px;
+}
+
+.title span{
+    color: var(--verde);
+}
+
+
+
+/* SOBRE NÓS */
+.sobre-nos{
+    background-color: var(--azul);
+    padding: 40px 20px;
+}
+
+.sobre-nos h1{
+    text-align: center;
+    color: var(--verde);
+    font-size: 40px;
+}
+
+.container-sobre-nos{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.sobre-nos-image img{
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    object-fit: cover;
+    width: 500px;
+    transition: 300ms;
+}
+
+.sobre-nos-image img:hover{
+    opacity: 0.8;
+}
+
+.sobre-nos-texto{
+    width: 50%;
+}
+
+.sobre-nos-texto p{
+    text-align: justify;
+    font-size: 20px;
+    color: var(--verde);
+}
+
+/* SERVIÇOS */
+.serviços{
+    padding: 40px 20px;
+    background-color: var(--azul-escuro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.serviços-images img{
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    object-fit: cover;
+    width: 500px;
+    transition: 300ms;
+}
+
+.serviços-images img:hover{
+    opacity: 0.8;
+}
+
+.serviços-textos{
+    width: 50%;
+    text-align: justify;
+}
+
+.serviços-textos h1{
+    color: var(--verde);
+    font-size: 40px;
+}
+
+.serviços-textos p{
+    color: var(--branco);
+    font-size: 20px;
+}
+
+/* TIME */
+.time{
+    background-color: var(--verde);
+    padding: 40px 20px;
+}
+
+.time h1{
+    color: var(--azul);
+    text-align: center;
+    font-size: 40px;
+}
+
+.container-time{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.time-item{
+    width: 30%;
+    background-color: var(--branco);
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+}
+
+.time-item img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: 100%;
+}
+
+.time-texto{
+    padding: 40px;
+}
+
+.time-texto h1{
+    color: var(--azul-escuro);
+    font-size: 20px;
+    text-align: start;
+}
