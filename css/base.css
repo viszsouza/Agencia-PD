@@ -276,7 +276,12 @@ footer{
 .footer-copy{
     font-size: 14px;
     font-weight: 500;
-    color: var(--cinza-escuro);
+    color: var(--azul-escuro);
+    transition: 300ms;
+}
+
+.footer-copy:hover{
+    color: var(--azul);
 }
 
 .footer-redes-sociais{
