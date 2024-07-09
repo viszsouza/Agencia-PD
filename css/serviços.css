@@ -1,0 +1,81 @@
+@import url("base.css");
+
+/* SERVIÇOS */
+.serviços{
+    background-color: var(--azul-escuro);
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container-serviço{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.serviço-img img{
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+}
+
+.serviço-texto{
+    width: 600px;
+}
+
+.serviço-texto h1{
+    font-size: 40px;
+    color: var(--verde);
+}
+
+.serviço-texto p{
+    font-size: 20px;
+    color: var(--branco);
+}
+
+.serviço-texto button{
+    margin-top: 20px;
+    color: var(--azul-escuro);
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--verde);
+    box-shadow: var(--shadow);
+    transition: 300ms;
+}
+
+.serviço-texto button:hover{
+    transform: scale(1.05);
+    background-color: var(--branco);
+}
+
+@media (max-width: 750px) {
+    .container-serviço{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .serviço-img img{
+        width: 100%;
+    }
+
+    .serviço-texto{
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .serviço-texto h1{
+        font-size: 30px;
+        color: var(--verde);
+    }
+    
+    .serviço-texto p{
+        font-size: 16px;
+        color: var(--branco);
+    }
+}
