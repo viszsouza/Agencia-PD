@@ -64,6 +64,28 @@ img {
     background-color: var(--branco);
 }
 
+/* Whatsapp flutuante */
+.whatsapp img{
+    position: fixed;
+    width: 100px;
+    bottom: 0;
+    margin-bottom: 50px;
+    right: 0;
+    margin-right: 50px;
+    transition: 300ms;
+}
+
+.whatsapp img:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 750px) {
+    .whatsapp img{
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+}
+
 
 /* NavBar */
 
